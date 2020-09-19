@@ -30,7 +30,7 @@ class CoxyFootnotes {
 		$this->path    = plugin_dir_path(__FILE__);
 		$this->folder  = basename($this->path);
 		$this->dir     = plugin_dir_url(__FILE__);
-		$this->version = self::version(); ;
+		$this->version = self::version();
 		$this->debug = false;
 		$this->name = 'Coxy Footnotes';
 
@@ -46,7 +46,7 @@ class CoxyFootnotes {
 	public static function version(){ return '1.0'; }
 
 
-
+    // Include Scripts
     public function scripts(){
 
         // Javascript
@@ -57,6 +57,7 @@ class CoxyFootnotes {
         
     }
     
+    // New Shortcode
     public function shortcode_footnote($attr, $content = ''){
 
         ob_start();
