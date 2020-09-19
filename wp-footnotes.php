@@ -43,7 +43,7 @@ class CoxyFootnotes {
 	}
 
 	// Set Version in a way that we can access it everywhere.
-	public static function version(){ return '0.0.1'; }
+	public static function version(){ return '1.0'; }
 
 
 
