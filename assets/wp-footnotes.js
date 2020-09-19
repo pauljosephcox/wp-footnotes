@@ -4,9 +4,7 @@ jQuery(document).ready(function($) {
     // Number The Footer Notes
     $('[data-footnote]').each(function(index){
 
-        var $footnote = $(this);
-        var $trigger = $footnote.find('[data-footnote-trigger]');
-        var $body = $footnote.find('[data-footnote-body]');
+        var $trigger = $(this).find('[data-footnote-trigger]');
         var number = index + 1;
 
         // Set The Footnote Number
