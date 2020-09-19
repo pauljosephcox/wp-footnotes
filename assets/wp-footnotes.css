@@ -1,0 +1,15 @@
+[data-footnote]{
+    display: inline-block;
+}
+
+[data-footnote-body] {
+    background-color: rgba(0,0,0,0.15);
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 1em;
+    display: none;
+}
+
+[data-footnote-body].open {
+    display: block;
+}
