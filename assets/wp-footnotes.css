@@ -1,6 +1,9 @@
 [data-footnote]{
     display: inline-block;
 }
+[data-footnote].open{
+    display: block;
+}
 
 [data-footnote-body] {
     background-color: rgba(0,0,0,0.15);
