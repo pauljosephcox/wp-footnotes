@@ -1,7 +1,7 @@
 
 <?php if(empty($content)) return; ?>
 
-<div data-footnote>
+<span data-footnote>
     <a href="#" data-footnote-trigger>[]</a>
-    <div data-footnote-body><?php echo $content; ?></div>
-</div>
+    <span data-footnote-body><?php echo $content; ?></span>
+</span>
